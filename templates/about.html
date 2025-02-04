@@ -17,10 +17,16 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/app.css') }}"
+    />
     <title>My Website - About</title>
   </head>
   <body>
     <header>
+      <img src="{{ url_for('static', filename='uwi.jpg') }}" alt="UWI Image" />
+
       <h1>Rinaldo Halliburton</h1>
     </header>
 
